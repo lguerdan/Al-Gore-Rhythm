@@ -15,7 +15,7 @@ int main(void){
 
   puts("Checking non-unique for magic index.");
   int arr_dupes[] = {-18, -15, -3, 0 , 4, 4, 4, 5 , 7, 9 ,20};
-  printf("Magic index found at: %d\n\<n></n>", magicIndex(arr_dupes, sizeof(arr) / sizeof(int), 1));
+  printf("Magic index found at: %d\n\n>", magicIndex(arr_dupes, sizeof(arr) / sizeof(int), 1));
 
   return 0;
 }
